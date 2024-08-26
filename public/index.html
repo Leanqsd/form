@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulario de Personal</h1>
+        <form action="" class="person-form">
+            <input type="text" class="name" name="name" placeholder="Nombre Completo">
+            <input type="email" class="email" name="email" placeholder="Correo Electronico">
+            <select class="studies" name="studies">
+                <option value="" hidden>Nivel de Estudios</option>
+                <option value="sin estudios">sin estudios</option>
+                <option value="primario">primario</option>
+                <option value="secundario">secundario</option>
+                <option value="terciario">terciario</option>
+                <option value="universitario">universitario</option>
+            </select>
+            <textarea name="extra-info" class="extra-info" placeholder="Ingrese informacion extra si es necesario"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>Creado por Quesada Leandro</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
